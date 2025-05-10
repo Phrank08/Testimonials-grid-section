@@ -3,69 +3,76 @@ import './App.css'
 function App() {
 
   return (
-    <section>
-      <div>
-        <div>
-          <img src="" alt="" />
-          <p>Daniel Clifford</p>
-          <p>Verified Graduate</p>
+    <section className="min-h-screen flex items-center justify-center px-4 py-10">
+      <div className="grid grid-cols-[2fr_1fr] gap-8">
+        <div className="bg-[hsl(263,55%,52%)] text-white rounded-2xl max-w-2xl shadow p-6 overflow-hidden">
+          <header className="flex items-center mb-5 space-x-4 relative z-10">
+            <img 
+              src="/image-daniel.jpg" 
+              alt="daniel clifford" 
+              className="w-12 h-12 rounded-full ring-2 ring-white flex-shrink-0"/>
+            <div>
+              <p className="font-medium">Daniel Clifford</p>
+            <p className="text-sm opacity-75">Verified Graduate</p>
+            </div>
+          </header>
+
+            <h3 className="font-semibold text-lg pb-3">
+              I received a job offer mid-course, and the subjects I learned were current, if not more so, in the company I joined. I honestly feel I got every penny's worth.
+            </h3>
+
+          <p className="prose-lg leading-relaxed relative z-10">
+            "I was on EMT for many years before I joined the bootcamp. I've been looking to make a transition and have heard some people who had an amazing experience here. I signed up for the free intro course and found it increcibly fun! I enrolled shortly thereafter. The next 12 weeks was the best-and most grueling-time of my life. Since completing the course, I've successfully switched careers, working as a Software Engineer at a VR startup."
+          </p>
         </div>
 
-        <h3>
-          I received a job offer mid-course, and the subjects I learned were current, if not more so, in the company I joined. I honestly feel I got every penny's worth.
-        </h3>
-
-        <p>
-          "I was on EMT for many years before I joined the bootcamp. I've been looking to make a transition and have heard some people who had an amazing experience here. I signed up for the free intro course and found it increcibly fun! I enrolled shortly thereafter. The next 12 weeks was the best-and most grueling-time of my life. Since completing the course, I've successfully switched careers, working as a Software Engineer at a VR startup."
-        </p>
-      </div>
-
-      <div>
         <div>
-          <img src="" alt="" />
-          <p>Jonathan Walters</p>
-          <p>Verified Graduate</p>
+          <div>
+            <img src="" alt="" />
+            <p>Jonathan Walters</p>
+            <p>Verified Graduate</p>
+          </div>
+
+          <h3>
+          The team was very supportive and kept me motivated
+          </h3>
+
+          <p>
+            "I started as a total virtually no coding skills. I now work as a mobile engineer for a big company. This was one of the best investments I've made in myself."
+          </p>
         </div>
 
-        <h3>
-         The team was very supportive and kept me motivated
-        </h3>
-
-        <p>
-          "I started as a total virtually no coding skills. I now work as a mobile engineer for a big company. This was one of the best investments I've made in myself."
-        </p>
-      </div>
-
-      <div>
         <div>
-          <img src="" alt="" />
-          <p>Jeanette Harmon Clifford</p>
-          <p>Verified Graduate</p>
+          <div>
+            <img src="" alt="" />
+            <p>Jeanette Harmon Clifford</p>
+            <p>Verified Graduate</p>
+          </div>
+
+          <h3>
+            An overall wonderful and rewarding experience
+          </h3>
+
+          <p>
+            "Thank you for the wonderful experience! I now have a full job I really enjoy, and make a good living while doing something I love. "
+          </p>
         </div>
 
-        <h3>
-          An overall wonderful and rewarding experience
-        </h3>
-
-        <p>
-          "Thank you for the wonderful experience! I now have a full job I really enjoy, and make a good living while doing something I love. "
-        </p>
-      </div>
-
-      <div>
         <div>
-          <img src="" alt="" />
-          <p>Patrick Abrams</p>
-          <p>Verified Graduate</p>
+          <div>
+            <img src="" alt="" />
+            <p>Patrick Abrams</p>
+            <p>Verified Graduate</p>
+          </div>
+
+          <h3>
+            Awesome teaching support from TAs who did the bootcamp themselves. Getting guidance from them and learning from their experiences was easy.
+          </h3>
+
+          <p>
+            "The staff seem genuinely concerned about my progress which I find really refreshing. The program gave me the confidence necessary to be able to go out in the world and present myself as a capable junior developer. The standard is above the rest. You will get the personal attention you need from an incredible community of smart and amazing people. "
+          </p>
         </div>
-
-        <h3>
-          Awesome teaching support from TAs who did the bootcamp themselves. Getting guidance from them and learning from their experiences was easy.
-        </h3>
-
-        <p>
-          "The staff seem genuinely concerned about my progress which I find really refreshing. The program gave me the confidence necessary to be able to go out in the world and present myself as a capable junior developer. The standard is above the rest. You will get the personal attention you need from an incredible community of smart and amazing people. "
-        </p>
       </div>
 
       <div>
