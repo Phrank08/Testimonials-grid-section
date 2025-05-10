@@ -70,7 +70,7 @@ function App() {
         An overall wonderful and rewarding experience
       </h3>
       <p className="text-sm">
-        “ Thank you for the wonderful experience! I now have a job I really enjoy... ”
+        “ Thank you for the wonderful experience! I now have a job I really enjoy, and make good living while doing something I love. ”
       </p>
     </div>
 
