@@ -8,7 +8,6 @@ This is a solution to the [Testimonials grid section challenge on Frontend Mento
   - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
   - [Links](#links)
-- [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
@@ -31,9 +30,8 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Solution URL here](https://github.com/Phrank08/Testimonials-grid-section)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Live site URL here](https://testimonials-grid-section-chi.vercel.app/)
 
-## My process
 
 ### Built with
 
